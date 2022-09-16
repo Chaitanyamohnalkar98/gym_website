@@ -1,0 +1,81 @@
+body{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.left{
+position: absolute;
+left: 20px;
+top: 20px;
+display: inline-block;
+}
+.mid{
+display: block;
+width: 45%;
+margin: 20px auto;
+}
+
+.navbar{
+    
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar-content{
+    color: blue;
+    text-decoration: underline;
+    font-size: 23px;
+    font-weight: bold;
+    color:white ;
+    text-decoration: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.navbar-content:hover{
+    
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 23px;
+    font-weight: bold;
+    color:red ;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.right{
+    color: black;
+position: absolute;
+right:20px;
+top: 20px;
+display: inline-block;
+border: 2px solid blue;
+border-radius: 30px;
+height: 35px;
+width: 200px;
+display: flex ;
+align-items: center;
+justify-content: center;
+background-color:skyblue;
+}
+.btn{
+   
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    color: white;
+    /* font-style: oblique; */
+    text-shadow: 5px 5px 8px black;
+    
+}
+.btn:hover{
+    background-color:yellow;
+    color: blue;
+    text-shadow: 5px 5px 8px blue;
+
+}
